@@ -14,12 +14,29 @@
  *= require_self
  */
 
+ /*
+  * Application Style
+  */
+
  html, body, div, span, object, iframe,
  h1, h2, h3, h4, h5, h6, p, blockquote, pre, caption {
    margin: 0;
    padding: 0;
    border: 0;
  }
+
+body {
+  font-family: Impact, Charcoal, sans-serif;
+}
+.container {
+  margin: 2% 5%;
+}
+
+
+
+/*
+ * Nav Bar Style
+ */
 
 .nav_bar {
   margin: 0px;
@@ -50,7 +67,30 @@
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 .nav_bar li a:hover {
     background-color: #111;
+}
+
+
+
+
+/*
+ * About Me Style
+ */
+
+.profile_box {
+  margin: 10px 2.5%;
+  background-color: grey;
+  border: 1px solid black;
+}
+
+.profile_box .box_content {
+  margin: 0.3em 0.5em 0.5em 0.5em;
+  padding: 0.3em;
+  font-size:18px;
+}
+
+.profile_box .box_content h1 {
+  font-size: 40px;
+  margin-bottom: 0.3em;
 }
