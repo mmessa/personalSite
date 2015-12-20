@@ -1,8 +1,32 @@
-<div class="nav_bar">
-  <ul>
-    <li><%= link_to "HOME", root_path %></li>
-    <li><%= link_to "ABOUT ME", "/aboutme" %></li>
-    <li><%= link_to "PROJECTS", root_path %></li>
-    <li><%= link_to "FITNESS", root_path %></li>
-  </ul>
-</div>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">MM</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-middle">
+        <li><a href="#">about</a></li>
+        <li><a href="#">projects</a></li>
+        <li><a href="#">fitness</a></li>
+        <li><a href="#">contact</a></li>
+
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">fb</a></li>
+        <li><a href="#">t</a></li>
+        <li><a href="#">igram</a></li>
+        <li><a href="#">lin</a></li>
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

@@ -13,6 +13,8 @@
  *= require_tree .
  *= require_self
  */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
 
  /*
   * Application Style
@@ -27,10 +29,11 @@
 
 body {
 
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Work Sans', sans-serif;*/
 }
 .container {
-  margin: 2% 5%;
+  //margin: 2% 5%;
 }
 
 
@@ -39,38 +42,35 @@ body {
  * Nav Bar Style
  */
 
-.nav_bar {
-  margin: 0px;
-  padding: 0px;
-  margin-bottom: 10px;
-  height: 40px;
-  width: 100%;
-  border-bottom: solid 1px black;
+.navbar-header {
+  padding-right: 10%;
+  padding-left: 4%;
 }
 
-.nav_bar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+.navbar-right {
+  margin: 0;
+  padding: 0;
+  padding-right: 4%;
+
 }
 
-.nav_bar li {
-  float: left;
+.navbar-middle {
+  //padding-left: 5%;
+  //padding-right: 5%;
 }
 
-.nav_bar li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+.navbar .navbar-nav {
+   text-align: center;
+   display: inline-block;
+   float: none;
+   vertical-align: top;
+ }
 
-.nav_bar li a:hover {
-    background-color: #111;
-}
+ .navbar .navbar-collapse {
+   text-align: center;
+ }
+
+
 
 
 
