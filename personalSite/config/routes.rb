@@ -4,6 +4,10 @@ Rails.application.routes.draw do
   root 'home#home'
 
   get '/aboutme', to: 'aboutme#aboutme'
+  get '/projects', to: 'projects#projects'
+  get '/fitness', to: 'fitness#fitness'
+  get '/contactme', to: 'contactme#contactme'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
