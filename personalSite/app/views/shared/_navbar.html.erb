@@ -14,17 +14,16 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-middle">
-        <li><a href="#">about</a></li>
-        <li><a href="#">projects</a></li>
-        <li><a href="#">fitness</a></li>
-        <li><a href="#">contact</a></li>
-
+          <li><a href="#">about</a></li>
+          <li><a href="#">projects</a></li>
+          <li><a href="#">fitness</a></li>
+          <li><a href="#">contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">fb</a></li>
-        <li><a href="#">t</a></li>
-        <li><a href="#">igram</a></li>
-        <li><a href="#">lin</a></li>
+        <li><%= link_to image_tag("/social_media/fb_logo_white_sized.png", size: "25x25", alt: "Facebook Logo"), "https://www.facebook.com/matthew.messa" %></li>
+        <li><%= link_to image_tag("/social_media/t_logo_white.png", size: "25x25", alt: "Twitter Logo"), "https://twitter.com/mattRmessa" %></li>
+        <li><%= link_to image_tag("/social_media/ig_logo_white_sized.png", size: "25x25", alt: "Instagram Logo"), "https://www.instagram.com/mattmessa/" %></li>
+        <li><%= link_to image_tag("/social_media/li_logo_white_sized.png", size: "25x25", alt: "LinkedIn Logo"), "https://www.linkedin.com/in/mattmessa" %></li
 
       </ul>
     </div><!-- /.navbar-collapse -->

@@ -47,10 +47,14 @@ body {
   padding-left: 4.5%;
 }
 
+.navbar-middle {
+  //padding-top: 5px;
+}
+
 .navbar-right {
   margin: 0;
-  //margin-right: -30px;
   padding: 0;
+  margin-top: -2px;
   padding-right: 4.5%;
 
 }
@@ -69,13 +73,13 @@ body {
 /* navbar */
 .navbar-default {
     height: 80px;
-    font-size: 17px;
+    font-size: 18px;
     background-color: black;
     border-color: black;
 }
 /* title */
 .navbar-default .navbar-brand {
-    padding-top: 28px;
+    padding-top: 31px;
     color: white;
 }
 .navbar-default .navbar-brand:hover,
@@ -85,7 +89,7 @@ body {
 
 /* link */
 .navbar-default .navbar-nav > li > a {
-    padding-top: 30px;
+    padding-top: 31px;
     color: white;
 }
 .navbar-default .navbar-nav > li > a:hover,
