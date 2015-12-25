@@ -43,7 +43,7 @@ body {
  */
 
 .navbar-header {
-  padding-right: 10%;
+  padding-right: 7%;
   padding-left: 4.5%;
 }
 
@@ -72,14 +72,14 @@ body {
 
 /* navbar */
 .navbar-default {
-    height: 80px;
-    font-size: 18px;
+    height: 100px;
+    font-size: 20px;
     background-color: black;
     border-color: black;
 }
 /* title */
 .navbar-default .navbar-brand {
-    padding-top: 31px;
+    //margin-top: -10px;
     color: white;
 }
 .navbar-default .navbar-brand:hover,
@@ -89,7 +89,7 @@ body {
 
 /* link */
 .navbar-default .navbar-nav > li > a {
-    padding-top: 31px;
+    padding-top: 40px;
     color: white;
 }
 .navbar-default .navbar-nav > li > a:hover,
