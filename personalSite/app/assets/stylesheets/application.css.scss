@@ -152,19 +152,15 @@ body {
  * About Me Style
  */
 
-.profile_box {
-  margin: 10px 2.5%;
-  background-color: grey;
-  border: 1px solid black;
+.aboutme_content {
+  width: 40%;
+  //margin: 10px 2.5%;
+  //background-color: grey;
+  //border: 1px solid black;
 }
 
-.profile_box .box_content {
-  margin: 0.1em 0.3em 0.3em 0.3em;
-  padding: 0.3em;
-  font-size:18px;
-}
-
-.profile_box .box_content h1 {
-  font-size: 34px;
-  margin-bottom: 0.3em;
+.aboutme_content h1 {
+  margin: .5em 0 .2em 0;
+  font-weight: bold;
+  font-size: 60px;
 }
