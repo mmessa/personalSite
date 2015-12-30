@@ -29,11 +29,12 @@
 
 body {
 
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   /*font-family: 'Work Sans', sans-serif;*/
 }
-.container {
-  margin: 80px 4.5%;
+.my_container {
+  margin: 90px 0 0 0;
+  padding: 0;
 }
 
 
@@ -152,15 +153,49 @@ body {
  * About Me Style
  */
 
-.aboutme_content {
+.section {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.content {
   width: 40%;
+  margin: 0 6%;
   //margin: 10px 2.5%;
   //background-color: grey;
   //border: 1px solid black;
 }
 
-.aboutme_content h1 {
-  margin: .5em 0 .2em 0;
+.content h1 {
+  margin: 0 0 .2em 0;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 70px;
+}
+
+.content h1 #top {
+  margin: .6em 0 .2em 0;
+}
+
+.content {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.skills {
+  background-color: #f7f7f7;
+}
+
+.content  .important_content {
+  margin: 0 0 1em 0;
+  color: gray;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.content  .main_content {
+  margin: 0 0 5em 0;
+  color: gray;
+  font-weight: 300;
+  font-size: 18px;
 }
