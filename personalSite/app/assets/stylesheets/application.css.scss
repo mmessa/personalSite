@@ -169,17 +169,19 @@ body {
   //border: 1px solid black;
 }
 
-#top {
-  margin: 2em 0 .2em 0;
-}
-
 .content h1 {
   margin: 0 0 .2em 0;
+  padding-top: .2em;
   font-weight: bold;
   font-size: 74px;
 }
 
-.skills {
+#aboutmeh1 {
+  margin: 1.8em 0 .2em 0;
+  padding: 0;
+}
+
+.background {
   background-color: #f7f7f7;
 }
 
