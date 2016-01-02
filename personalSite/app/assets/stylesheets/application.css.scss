@@ -160,28 +160,31 @@ body {
   border-bottom: 1px solid #f1f1f1;
 }
 
-.chart {
-  float: left;
-  width: 40%;
-  background-color: #f7f7f7;
-  padding: auto;
-  padding-top: 5%;
-  margin: auto;
-}
+
 
 .aboutmecontent {
-  width: 33%;
+  width: 31%;
   padding: auto;
 }
 
 .content {
   //width: 33%;
-  margin: 0 10%;
+  margin: 0 8% 0 10%;
   padding: auto;
   font-family: 'Open Sans', sans-serif;
   //margin: 10px 2.5%;
   //background-color: grey;
   //border: 1px solid black;
+}
+
+.chart {
+  float: left;
+  width: 42%;
+  //background-color: red;
+  padding: 0;
+  padding-top: 7%;
+  margin: 0;
+  margin-left: -10px;
 }
 
 .athlete {
@@ -200,7 +203,7 @@ body {
 .developer {
   float: right;
   padding: auto;
-  width: 35%;
+  width: 33%;
   margin: 0;
   margin-bottom: 20px;
   color: dimgray;
