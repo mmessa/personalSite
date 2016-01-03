@@ -190,9 +190,8 @@ body {
 .athlete {
   float: left;
   padding: auto;
-  padding-bottom: 5px;
   width:25%;
-  margin: 0;
+  margin: auto;
   //margin-right: 30px;
   color: dimgray;
   font-weight: 300;
@@ -204,12 +203,12 @@ body {
 .developer {
   float: right;
   padding: auto;
-  padding-bottom: 5px;
   width: 33%;
-  margin: 0;
+  margin: auto;
   //margin-bottom: 20px;
   color: dimgray;
   font-weight: 300;
+  //margin-bottom: 5px;
   //background-color: red;
   //margin-left: -10px;
   //height: 200px;
