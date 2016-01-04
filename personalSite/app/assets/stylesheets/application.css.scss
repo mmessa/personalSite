@@ -185,6 +185,7 @@ body {
   padding-top: 12%;
   margin: 0;
   margin-left: -10px;
+  overflow: hidden;
 }
 
 .athlete {
@@ -262,7 +263,8 @@ body {
 }
 
 .skillschart {
-  margin: .5em 0 6em 0;
+  margin: .8em 0 6em 10%;
+  overflow: hidden;
 }
 
 .content  .main_content {
@@ -270,4 +272,27 @@ body {
   color: dimgray;
   font-weight: 300;
   font-size: 20px;
+}
+
+.levels {
+  float: left;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0;
+  width: 10%;
+}
+
+.levels li {
+  //margin: 10px;
+  margin-bottom: 37px;
+  margin-top: -7px;
+  padding: 0;
+  //padding-bottom: 100px;
+}
+
+#skillsh1 {
+  text-align: right;
+
 }
