@@ -29,7 +29,7 @@
       </div>
       <div class="chart">
         <%= javascript_include_tag "//www.google.com/jsapi", "chartkick" %>
-        <%= pie_chart({"Developer" => 0.5, "Athlete" => 0.5}, colors: ["gray", "black"], library: {backgroundColor: "#f7f7f7", pieSliceText: 'label', pieSliceTextStyle: {color: "white", fontName: "Open Sans", fontSize: 24}, legend: {position: "none"}, chartArea: {left:0, right:0, bottom:5,top:5,width:'100%',height:'100%'}}) %>
+        <%= pie_chart({"Developer" => 0.5, "Athlete" => 0.5}, colors: ["gray", "black"], library: {backgroundColor: "#f7f7f7", pieSliceText: 'label', pieSliceTextStyle: {color: "white", fontName: "Open Sans", fontSize: 24}, legend: {position: "none"}, chartArea: {left:0, right:0, bottom:5,top:5,width:'100%',height:'95%'}}) %>
       </div>
       <div class="developer">
         <h1>Half Developer</h1>
@@ -47,7 +47,7 @@
 
 <div class="section">
     <div class="content skills">
-      <h1>My Technical Skills</h1>
+      <h1>My technical skills</h1>
       <div class="skillschart">
         <%= javascript_include_tag "//www.google.com/jsapi", "chartkick" %>
         <%  data = [
@@ -56,7 +56,7 @@
           }
 
                   ] %>
-        <%= column_chart data, colors: ["gray", "black", "red", "blue", "green"], library: {legend: {position: "none"}, chartArea: {left:"auto", right:0, bottom:"auto",top:5,width:'95%',height:'90%'}}  %>
+        <%= column_chart data, colors: ["black"], library: {legend: {position: "none"}, chartArea: {left:"auto", right:0, bottom:"auto",top:5,width:'95%',height:'90%'}}  %>
     </div>
   </div>
 </div>
