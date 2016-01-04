@@ -58,11 +58,11 @@
         <%= javascript_include_tag "//www.google.com/jsapi", "chartkick" %>
         <%  data = [
           {
-            data: [["C/C++", 10], ["Java", 24], ["HTML/CSS", 24], ["Ruby on Rails", 24], ["Amazon Web Services", 10]]
+            data: [["C/C++", 95], ["Body Building", 95], ["Photoshop", 80], ["Ruby on Rails", 50], ["Java", 25], ["Amazon Web Services", 25]]
           }
 
                   ] %>
-        <%= column_chart data, colors: ["black"], library: {legend: {position: "none"}, chartArea: {left:0, right:0, bottom:"auto",top:10,width:'100%',height:'90%'}}  %>
+        <%= column_chart data, colors: ["black"], library: {legend: {position: "none"}, fontName: "Open Sans", fontSize: 20, animation: {"startup": true, duration: 1000}, tooltip: {trigger: "none"}, hAxis: {baselineColor: "dimgray"}, chartArea: {left:0, right:0, bottom:"auto",top:10,width:'100%',height:'90%'}}  %>
     </div>
   </div>
 </div>
