@@ -160,8 +160,6 @@ body {
   border-bottom: 1px solid #f1f1f1;
 }
 
-
-
 .aboutmecontent {
   width: 31%;
   padding: auto;
@@ -172,9 +170,6 @@ body {
   margin: 0 8% 0 10%;
   padding: auto;
   font-family: 'Open Sans', sans-serif;
-  //margin: 10px 2.5%;
-  //background-color: grey;
-  //border: 1px solid black;
 }
 
 .chart {
@@ -196,9 +191,6 @@ body {
   //margin-right: 30px;
   color: dimgray;
   font-weight: 300;
-  //background-color: blue;
-  //margin-right: 10px;
-  //height: 50%;
 }
 
 .developer {
@@ -206,13 +198,8 @@ body {
   padding: auto;
   width: 33%;
   margin: auto;
-  //margin-bottom: 20px;
   color: dimgray;
   font-weight: 300;
-  //margin-bottom: 5px;
-  //background-color: red;
-  //margin-left: -10px;
-  //height: 200px;
 }
 
 .gray {
@@ -294,5 +281,30 @@ body {
 
 #skillsh1 {
   text-align: right;
+}
+
+
+/*
+ * Projects style
+ */
+
+ .floating_box {
+    float: left;
+    width: 30%;
+    height: 40%;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.box_content {
+  padding: .8em;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.floating_box h2 {
+  padding-bottom: .2em;
 
 }
