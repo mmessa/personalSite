@@ -37,6 +37,11 @@ body {
   padding: 0;
 }
 
+.container {
+  margin: 110px 6% 0 6%;
+  padding: 0;
+}
+
 
 
 /*
@@ -288,13 +293,20 @@ body {
  * Projects style
  */
 
+#project_body{
+  background-color: #fbfbfb !important;
+}
+
  .floating_box {
     float: left;
-    width: 30%;
-    height: 40%;
-    margin: 10px;
-    border: 1px solid black;
+    width: 29%;
+    height: 45%;
+    margin: 1.5%;
+    padding: 0;
+    background-color: white;
+    border: 1.5px solid #e6e6e6;
     border-radius: 5px;
+    overflow: hidden;
 }
 
 .box_content {
