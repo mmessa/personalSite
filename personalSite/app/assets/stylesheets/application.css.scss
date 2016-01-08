@@ -297,6 +297,15 @@ body {
   background-color: #fbfbfb !important;
 }
 
+.more {
+  font-size: 100px;
+  text-align: center;
+  font-family: "Open Sans";
+  color: dimgray;
+  padding: 10px;
+  margin: 0;
+}
+
  .floating_box {
     float: left;
     width: 29%;
@@ -305,6 +314,9 @@ body {
     padding: 0;
     background-color: white;
     border: 1.5px solid #e6e6e6;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     overflow: hidden;
 }
@@ -329,8 +341,9 @@ body {
 .project_image {
   //margin: 0.25em 0.25em 0.25em 0.25em;
   width: 100%;
-  max-height: 215px;
-  height: auto;
+  height: 215px;
+  //max-height: 215px;
+  //height: auto;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
