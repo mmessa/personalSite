@@ -206,6 +206,21 @@ body {
   font-weight: 300;
 }
 
+.aboutme_image {
+  float: left;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.aboutme_imagesection {
+  width: auto;
+  padding: auto;
+  margin: auto;
+  padding-top: 1em;
+  //max-width: 200px;
+  //max-height: 200px;
+}
+
 .developer {
   float: right;
   padding: auto;
@@ -225,7 +240,9 @@ body {
 }
 
 .interestscontent {
-  padding-bottom: 20px;
+  width: 30%;
+  float:left;
+  padding-bottom: 30px;
 }
 
 .content h1 {
